@@ -2,6 +2,7 @@
     <nav>
         <ul class="pagination justify-content-center">
             {{-- Previous Page Link --}}
+            {{-- php artisan vendor:publish --tag=laravel-pagination --}}
             @if ($paginator->onFirstPage())
                 <li class="page-item disabled" aria-disabled="true" aria-label="@lang('pagination.previous')">
                     <span class="page-link" aria-hidden="true">&lsaquo;</span>
